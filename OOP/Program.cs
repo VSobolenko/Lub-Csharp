@@ -13,7 +13,7 @@ namespace OOP
     class A
     {
         private int a = 3;
-        private int b = 7;
+        private int b = 10;
         public int c
         {
             get
