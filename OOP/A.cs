@@ -6,12 +6,12 @@ namespace OOP
 {
     class A
     {
-        private int _a = 3;
+        public int a = 3;
         private int _b = 10;
 
-        public A(int a, int b)
+        public A(int a1, int b)
         {
-            _a = a;
+            a = a1;
             _b = b;
         }
 
@@ -23,11 +23,11 @@ namespace OOP
         {
             get
             {
-                return _a %= (_a + _b);
+                return a %= (a + _b);
             }
             set
             {
-                _a = value;
+                a = value;
             }
         }
     }

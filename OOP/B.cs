@@ -7,8 +7,7 @@ namespace OOP
     class B : A
     {
         private int _d;
-        private int[] _arrayClass;
-
+        public int[] arrayClass;
         public B(int a, int b, int d) : base(a, b)
         {
             _d = d;
@@ -17,16 +16,15 @@ namespace OOP
         {
         }
 
-        public int c2
+        public int c2 { get; set; }
+        public B(int var1, int var2)
         {
-            get
+            a = var1;
+            c2 = var2;
+            arrayClass = new int[a];
+            for (int i = 0; i < arrayClass.Length; i++)
             {
-                //if()
-                return _d;
-            }
-            set
-            {
-                _d = value;
+                arrayClass[i] = c2 * i;
             }
         }
     }
