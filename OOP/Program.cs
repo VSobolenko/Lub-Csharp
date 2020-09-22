@@ -9,7 +9,7 @@ namespace OOP
             B classB = new B(3, 4);
             foreach(int i in classB.arrayClass)
             {
-                Console.WriteLine(i + " ");
+                Console.WriteLine(i);
             }
         }
     }
