@@ -29,6 +29,7 @@ namespace OOP
 
             Array.Sort(arrayPerson);
             Console.WriteLine("\nПосле сортировки по фамилии");
+
             for(int i = 0; i<arrayPerson.Length; i++)
             {
                 arrayPerson[i].GetInfo();
