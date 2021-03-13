@@ -16,6 +16,7 @@ namespace OOP
         }
         public B()
         {
+
         }
 
         public int year 
