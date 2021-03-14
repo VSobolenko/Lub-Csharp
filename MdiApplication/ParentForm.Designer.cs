@@ -1,7 +1,7 @@
 ﻿
-namespace Windows_Forms_Lab
+namespace MdiApplication
 {
-    partial class nForm
+    partial class ParentForm
     {
         /// <summary>
         /// Required designer variable.
@@ -31,21 +31,14 @@ namespace Windows_Forms_Lab
         {
             this.SuspendLayout();
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Brown;
-            this.button1.Text = "Hello!!!";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // nForm
+            // ParentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Blue;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "nForm";
-            this.Text = "nForm";
-            this.Load += new System.EventHandler(this.nForm_Load);
+            this.ClientSize = new System.Drawing.Size(404, 281);
+            this.IsMdiContainer = true;
+            this.Name = "ParentForm";
+            this.Text = "ParentForm";
             this.ResumeLayout(false);
 
         }
@@ -53,3 +46,4 @@ namespace Windows_Forms_Lab
         #endregion
     }
 }
+

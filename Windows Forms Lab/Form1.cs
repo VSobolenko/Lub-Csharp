@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,19 +15,6 @@ namespace Windows_Forms_Lab
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            GraphicsPath path = new GraphicsPath();
-            path.AddPolygon(new Point[] { new Point(0, 0), new Point(0, this.Height), new Point(this.Width, 0) });
-            Region region = new Region(path);
-            this.Region = region;
         }
     }
 }

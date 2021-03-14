@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Windows Forms Lab")]
+[assembly: AssemblyTitle("MdiApplication")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Windows Forms Lab")]
+[assembly: AssemblyProduct("MdiApplication")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("883bfbcc-c2c2-4ef5-9b75-3ccd63e5c56b")]
+[assembly: Guid("45597041-c6fc-4d25-bb89-a528af2fbf9e")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Windows_Forms_Lab
+namespace MdiApplication
 {
-    public partial class nForm : Form1
+    public partial class ParentForm : Form
     {
-        public nForm()
+        public ParentForm()
         {
             InitializeComponent();
-        }
-
-        private void nForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
