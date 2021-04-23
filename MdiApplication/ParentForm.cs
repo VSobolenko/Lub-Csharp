@@ -15,6 +15,7 @@ namespace MdiApplication
         public ParentForm()
         {
             InitializeComponent();
+            this.IsMdiContainer = true;
         }
     }
 }
