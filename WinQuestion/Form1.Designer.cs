@@ -1,5 +1,5 @@
 ﻿
-namespace Events
+namespace WinQuestion
 {
     partial class Form1
     {
