@@ -20,17 +20,13 @@ namespace Additional
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            GraphicsPath path = new GraphicsPath();
-            /*
-            path.AddPolygon(new Point[] {
-                new Point(0,0),
-                new Point(0, this.Height),
-                new Point(this.Width, 0)
-            });
-            */
-            path.AddEllipse(0, 0, this.Width, this.Height);
-            Region region = new Region(path);
-            this.Region = region;
+            this.WindowState = FormWindowState.Maximized;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ChildForm childForm = new ChildForm();
+            childForm.Show();
         }
     }
 }
