@@ -62,8 +62,9 @@ namespace MdiApplication
             // NewMenuItem
             // 
             this.NewMenuItem.Name = "NewMenuItem";
-            this.NewMenuItem.Size = new System.Drawing.Size(98, 22);
+            this.NewMenuItem.Size = new System.Drawing.Size(180, 22);
             this.NewMenuItem.Text = "&New";
+            this.NewMenuItem.Click += new System.EventHandler(this.NewMenuItem_Click);
             // 
             // ExitMenuItem
             // 
