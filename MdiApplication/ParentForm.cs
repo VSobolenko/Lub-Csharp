@@ -17,5 +17,20 @@ namespace MdiApplication
             InitializeComponent();
             this.IsMdiContainer = true;
         }
+
+        private void ExitMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void WindowCascadeMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.Cascade);
+        }
+
+        private void WindowTitleMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.TileHorizontal);
+        }
     }
 }
