@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MdiApplication", "MdiApplication\MdiApplication.csproj", "{45597041-C6FC-4D25-BB89-A528AF2FBF9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Additional", "Additional\Additional.csproj", "{FDFD5F83-AD73-4ACA-BDD2-6B6934D614F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{45597041-C6FC-4D25-BB89-A528AF2FBF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{45597041-C6FC-4D25-BB89-A528AF2FBF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45597041-C6FC-4D25-BB89-A528AF2FBF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{45597041-C6FC-4D25-BB89-A528AF2FBF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFD5F83-AD73-4ACA-BDD2-6B6934D614F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFD5F83-AD73-4ACA-BDD2-6B6934D614F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFD5F83-AD73-4ACA-BDD2-6B6934D614F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFD5F83-AD73-4ACA-BDD2-6B6934D614F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
