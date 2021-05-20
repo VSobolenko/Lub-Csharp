@@ -8,6 +8,7 @@ namespace MdiApplication
 {
     static class Program
     {
+
         [STAThread]
         static void Main()
         {
